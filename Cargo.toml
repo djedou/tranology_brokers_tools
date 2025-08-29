@@ -1,0 +1,17 @@
+[package]
+name = "tranology_brokers_tools"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4"
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0.140"
+ureq = {version = "3.0", features = ["json"]}
+hex = "0.4"
+eq-float = "0.1"
+dotenv = "0.15"
+#base64 = "0.22"
+hmac = "0.12"
+sha2 = "0.10"
+#ring = "0.17"
